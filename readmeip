@@ -8,3 +8,11 @@ then type:
 
 systemctl daemon-reload
 systemctl enable ip.service
+
+
+make sure you go on canvas and see how to install pip if you dont already have it.
+
+type:
+pip install wireless
+
+to get the wireless library for python
