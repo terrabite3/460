@@ -1,0 +1,10 @@
+Create a new directory: /etc/init.d
+
+add ip.py and ip.sh there
+
+add ip.service to /lib/systemd/system/
+
+then type:
+
+systemctl daemon-reload
+systemctl enable ip.service
