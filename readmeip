@@ -1,6 +1,7 @@
 Create a new directory: /etc/init.d
 
 add ip.py and ip.sh there
+Run chmod +x ip.py ip.sh to make the scripts executable
 
 add ip.service to /lib/systemd/system/
 
