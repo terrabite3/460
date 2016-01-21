@@ -2,6 +2,7 @@ import pyupm_i2clcd as lcd
 import socket
 import fcntl
 import struct
+import time
 from wireless import Wireless 
 
 def getIP(ifname):
@@ -39,3 +40,4 @@ while True:
         ip = getIP('wlan0')
         myLCD.setCursor(1, 0)
         myLCD.write(ip)
+    time.sleep(1)
